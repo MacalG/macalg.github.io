@@ -1,0 +1,61 @@
+H1{
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 40px;
+}
+h3
+{
+    text-align:center;
+    color: white;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    font-size: 25px;   
+}
+.Head{
+    color: rgb(239, 65, 255);
+    background: purple;    
+}
+.Align{
+    display: inline-block;
+}
+.Picture{
+    align-content: center;    
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1280px;
+}
+.slider {
+    overflow-x: scroll;
+    white-space: nowrap;
+    
+}
+::-webkit-scrollbar {
+    height: 20px;
+    width: 40px;
+    border-radius: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
